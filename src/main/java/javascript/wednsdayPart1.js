@@ -1,0 +1,13 @@
+var boys = ["Peter", "lars", "Ole"];
+var girls = ["Janne", "hanne", "Sanne"];
+let all = boys.concat(girls);
+let allcomma = all.join(', ');
+let allhyphen = all.join(' - ');
+all.push("Lone", "Gitte");
+all.unshift("Hans", "Kurt");
+all.shift();
+all.pop();
+all.splice(4, 1);
+all.splice(5,1);
+all.reverse();
+all.sort();
